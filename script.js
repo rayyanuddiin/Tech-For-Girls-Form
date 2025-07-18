@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", () => {
       };
 
       const response = await fetch(
-        "https://corsproxy.io/?" + encodeURIComponent("https://script.google.com/macros/s/AKfycby3YgzwmtCL7NoEFkoLVem1ZpGPhpUa1n3xLMM5B7Ow1YAt4D9k0GTf7wlDfQRbUycRjQ/exec"),
+        "https://api.allorigins.win/raw?url=" + encodeURIComponent("https://script.google.com/macros/s/AKfycby3YgzwmtCL7NoEFkoLVem1ZpGPhpUa1n3xLMM5B7Ow1YAt4D9k0GTf7wlDfQRbUycRjQ/exec"),
         {
           method: "POST",
           body: JSON.stringify(formData),
